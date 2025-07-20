@@ -1,22 +1,20 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
+
 body {
 
     .logowrapwrap {
-        width: 100%;
-        display: flex;
+        max-width: 1188px;
         margin: 0 auto;
 
         .logowrap {
             display: flex;
-            justify-content: center;
-            align-items: center;
             margin: 0 auto;
 
             .logobase {
                 display: flex;
-                width: 1188px;
+
 
                 img {
                     display: flex;
@@ -24,7 +22,6 @@ body {
                     height: 30px;
                     margin: 10px 0;
                     padding: 0;
-
                 }
             }
         }
@@ -73,13 +70,31 @@ body {
         }
     }
 
+    @media screen and (max-width: 375px) {
+
+        .logowrapwrap {
+            width: 100%;
+        }
+
+        .blackbase {
+            width: 100%;
+        }
+
+        .listwrap {
+            width: 100%;
+        }
+    }
+
+
+
     .pickupall {
         display: flex;
-        /* width: 1188px; */
+        width: 1188px;
         margin: 0 auto;
         align-items: center;
         justify-content: center;
         gap: 23px;
+        padding: 0;
 
         .pickup1wrap {
             display: flex;
@@ -196,6 +211,19 @@ body {
             }
         }
     }
+    @media screen and(min-width: 375px) {
+
+        .pickupall {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+
+
+
+
 
     .two-calm-wrap {
         display: flex;
@@ -602,9 +630,11 @@ body {
             font-style: Bold;
             margin-bottom: 30px;
         }
-        .archive-date{
+
+        .archive-date {
             padding-left: 8px;
         }
+
         .archive-date li {
             display: flex;
             border-top: 1px solid #777;
@@ -739,9 +769,9 @@ body {
                 .menu {
                     margin-top: 30px;
                     padding: 0;
-            }
+                }
 
-            
+
                 .menu a {
                     color: black;
                     text-decoration-line: none;
