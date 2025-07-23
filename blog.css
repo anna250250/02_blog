@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 
+body{
+margin: 0;
+padding: 0;
+}
 
 .logowrapwrap {
     max-width: 1188px;
     margin: 0 auto;
-
-    /* display: none; */
+    padding: 0;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -25,7 +28,6 @@
     display: flex;
 }
 
-
 .logoimg {
     display: flex;
     width: 145px;
@@ -33,7 +35,6 @@
     margin: 10px 0;
     padding: 0;
 }
-
 
 .blackbasewrap {
     background-color: black;
@@ -43,6 +44,12 @@
     margin: 0 auto;
     align-items: center;
     margin-bottom: 44px;
+    padding: 0 8px;
+
+        @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 16px;
+    }
 }
 
 .blackbase {
@@ -58,7 +65,6 @@
         width: 100%;
     }
 }
-
 
 .listwrap {
     display: flex;
@@ -470,6 +476,10 @@ a {
     font-family: "Noto Sans JP";
     font-style: Regular;
     margin-bottom: 30px;
+
+        @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 a {
@@ -548,6 +558,10 @@ a {
     font-family: "Noto Sans JP";
     font-style: Regular;
     margin-bottom: 30px;
+
+        @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 a {
@@ -1038,6 +1052,11 @@ iframe {
     padding: 0;
     width: 347px;
     height: 315px;
+
+        @media screen and (max-width: 768px) {
+        width: 100%;
+        height: auto;
+    }
 
 }
 
