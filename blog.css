@@ -88,15 +88,17 @@ padding: 0;
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        height: auto;
-        padding-left: 16px;
-        font-size: 14px;
+        gap:40px;
     }
 }
 
 .hederlistlink {
     text-decoration: none;
     color: white;
+
+        @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 
@@ -587,7 +589,6 @@ a {
     @media screen and (max-width: 768px) {
         width: 100%;
         height: auto;
-        padding: 16px;
     }
 }
 
@@ -600,9 +601,6 @@ a {
     padding: 0;
 
     @media screen and (max-width: 768px) {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
         width: 100%;
         height: auto;
     }
@@ -665,9 +663,6 @@ a {
     padding: 0;
 
     @media screen and (max-width: 768px) {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
         width: 100%;
         height: auto;
     }
@@ -682,11 +677,6 @@ a {
     width: 345px;
 
     @media screen and (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
         width: 100%;
         height: auto;
     }
@@ -716,7 +706,6 @@ a {
         width: 100%;
         height: auto;
     }
-
 }
 
 
@@ -743,7 +732,6 @@ a {
         width: 100%;
         height: auto;
     }
-
 }
 
 .ranking-text2 {
@@ -807,7 +795,6 @@ a {
     margin-top: 60px;
 
     @media screen and (max-width: 768px) {
-        display: flex;
         width: 100%;
         height: auto;
     }
@@ -850,7 +837,6 @@ a {
         @media screen and (max-width: 768px) {
         width: 100%;
         height: auto;
-        padding: 16px;
     }
 }
 
